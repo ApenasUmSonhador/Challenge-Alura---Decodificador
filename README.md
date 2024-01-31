@@ -1,20 +1,42 @@
 # Challenge Alura - Decodificador
 
-Breve descrição do projeto.
+![imagem do projeto](image.png)
 
 ## Tecnologias Utilizadas
 
-- HTML
-- CSS
-- JavaScript
+- HTML (puro)
+- CSS (puro)
+- JavaScript (puro)
 
 ## Descrição do Projeto
 
-Uma breve descrição do projeto e seus objetivos.
+Este projeto consiste em uma aplicação web para criptografar e descriptografar textos, permitindo a troca de mensagens secretas entre usuários que compartilham o conhecimento das regras de criptografia utilizadas.
+
+### Regras de Criptografia:
+
+**1. Letras Minúsculas Apenas:**
+
+    O sistema funciona exclusivamente com letras minúsculas. Certifique-se de inserir apenas caracteres neste formato.
+
+**2. Chaves de Criptografia:**
+
+- 'e' é convertido para 'enter'
+- 'i' é convertido para 'imes'
+- 'a' é convertido para 'ai'
+- 'o' é convertido para 'ober'
+- 'u' é convertido para 'ufat'
+
+**3. Sem Acentos ou Caracteres Especiais:**
+
+    Não utilize letras com acentos nem caracteres especiais. A aplicação se baseia apenas em caracteres alfabéticos simples.
+
+**4. Conversão Bidirecional:**
+
+    É possível converter uma palavra para a versão criptografada e, da mesma forma, retornar uma palavra criptografada para a versão original.
 
 ## Acesso ao Projeto
 
-Você pode acessar o projeto através do GitHub Pages [aqui]().
+Você pode acessar o projeto através do GitHub Pages [aqui](https://apenasumsonhador.github.io/Challenge-Alura---Decodificador/).
 
 ## Instalação
 
@@ -23,11 +45,29 @@ Você pode acessar o projeto através do GitHub Pages [aqui]().
 
 ## Uso
 
-Descreva como utilizar o projeto e forneça exemplos de código, se necessário.
+**1. Acesse a Aplicação:**
+
+    Abra o arquivo HTML no seu navegador ou hospede a aplicação em um servidor web.
+
+**2. Entrada de Texto:**
+
+    Insira o texto desejado na área de entrada. Certifique-se de seguir as regras de letras minúsculas e ausência de acentos.
+
+**3. Escolha Criptografar ou Descriptografar:**
+
+    Selecione a opção desejada para criptografar ou descriptografar o texto inserido.
+
+**4. Visualize o Resultado:**
+
+    O resultado será exibido na seção de saída. Se estiver criptografando, a palavra será convertida; se estiver descriptografando, a palavra original será revelada.
+
+**5. Botão de Cópia (Extra):**
+
+    Utilize o botão "Copiar" para copiar o texto criptografado/descriptografado para a área de transferência, facilitando o compartilhamento.
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga as etapas abaixo:
+Contribuições são bem-vindas! Caso queira contribuir com este projeto, siga as etapas abaixo:
 
 1. Faça um fork do projeto
 2. Crie uma nova branch: `git checkout -b minha-nova-feature`
