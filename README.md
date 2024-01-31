@@ -16,7 +16,7 @@ Este projeto consiste em uma aplicação web para criptografar e descriptografar
 
 **1. Letras Minúsculas Apenas:**
 
-    O sistema funciona exclusivamente com letras minúsculas. Certifique-se de inserir apenas caracteres neste formato.
+<p class= "texto">O sistema funciona exclusivamente com letras minúsculas. Certifique-se de inserir apenas caracteres neste formato.</p>
 
 **2. Chaves de Criptografia:**
 
@@ -28,11 +28,11 @@ Este projeto consiste em uma aplicação web para criptografar e descriptografar
 
 **3. Sem Acentos ou Caracteres Especiais:**
 
-    Não utilize letras com acentos nem caracteres especiais. A aplicação se baseia apenas em caracteres alfabéticos simples.
+<p class= "texto">Não utilize letras com acentos nem caracteres especiais. A aplicação se baseia apenas em caracteres alfabéticos simples.</p>
 
 **4. Conversão Bidirecional:**
 
-    É possível converter uma palavra para a versão criptografada e, da mesma forma, retornar uma palavra criptografada para a versão original.
+<p class= "texto">É possível converter uma palavra para a versão criptografada e, da mesma forma, retornar uma palavra criptografada para a versão original.</p>
 
 ## Acesso ao Projeto
 
@@ -47,23 +47,23 @@ Você pode acessar o projeto através do GitHub Pages [aqui](https://apenasumson
 
 **1. Acesse a Aplicação:**
 
-    Abra o arquivo HTML no seu navegador ou hospede a aplicação em um servidor web.
+<p class= "texto">Abra o arquivo HTML no seu navegador ou hospede a aplicação em um servidor web.</p>
 
 **2. Entrada de Texto:**
 
-    Insira o texto desejado na área de entrada. Certifique-se de seguir as regras de letras minúsculas e ausência de acentos.
+<p class= "texto">Insira o texto desejado na área de entrada. Certifique-se de seguir as regras de letras minúsculas e ausência de acentos.</p>
 
 **3. Escolha Criptografar ou Descriptografar:**
 
-    Selecione a opção desejada para criptografar ou descriptografar o texto inserido.
+<p class= "texto">Selecione a opção desejada para criptografar ou descriptografar o texto inserido.</p>
 
 **4. Visualize o Resultado:**
 
-    O resultado será exibido na seção de saída. Se estiver criptografando, a palavra será convertida; se estiver descriptografando, a palavra original será revelada.
+<p class= "texto">O resultado será exibido na seção de saída. Se estiver criptografando, a palavra será convertida; se estiver descriptografando, a palavra original será revelada.</p>
 
 **5. Botão de Cópia (Extra):**
 
-    Utilize o botão "Copiar" para copiar o texto criptografado/descriptografado para a área de transferência, facilitando o compartilhamento.
+<p class= "texto">Utilize o botão "Copiar" para copiar o texto criptografado/descriptografado para a área de transferência, facilitando o compartilhamento.</p>
 
 ## Contribuição
 
@@ -78,3 +78,9 @@ Contribuições são bem-vindas! Caso queira contribuir com este projeto, siga a
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+<style>
+    .texto{
+        padding-left: 2rem;
+    }
+</style>
