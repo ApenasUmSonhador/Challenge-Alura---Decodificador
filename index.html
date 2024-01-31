@@ -3,38 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Coder / Decoder</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-    </header>
-    <main>
-        <section>
-            <div>
-                <input type="text" name="entrada" placeholder="Digite seu texto">   
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>Apenas letras minúculas e sem acento.</p>
-            </div>
-            <div>
-                <a onclick="criptografar()">Criptografar</a>
-                <a onclick="descriptografar()">Descriptografar</a>
-            </div>
-        </section>
-        <section>
-            <img src="" alt="">
+    <img class="alura-icon" src="Vector (1).png" alt="">
+    <section class="entrada">
+        <textarea name="texto-entrada" id="texto-entrada" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+        <div class="aviso">
+            <img src="bi_exclamation-circle-fill.png" alt="!">
+            <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div class="div-botoes">
+            <a onclick="criptografar()" class="botao">Criptografar</a>
+            <a onclick="descriptografar()" class="botao">Descriptografar</a>
+        </div>
+    </section>
+
+    <section class="saida">
+        <div class="saida-inicio" id="saida-inicio">
+            <img src="High quality products 1 1.svg" alt="">
             <h2>Nenhuma mensagem encontrada</h2>
             <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-            <p id="resultado"></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Arthur Nunes. Todos os direitos reservados.</p>
-    </footer>
+        </div>
+        <div class="saida-fim" id="saida-fim">
+            <textarea name="texto-saida" id="texto-saida" class="texto-saida" cols="30" rows="10" readonly>teste</textarea>
+            <a onclick="copiarTexto()" class="botao-copiar"">Copiar</a>
+        </div>  
+    </section>
 </body>
 <script src="app.js"></script>
 </html>
