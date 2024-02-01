@@ -1,6 +1,6 @@
 # Challenge Alura - Decodificador
 
-![imagem do projeto](img/image.png)
+![Tela desktop](img/image.png)
 
 ## Tecnologias Utilizadas
 
