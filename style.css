@@ -126,7 +126,8 @@ textarea {
   justify-content: space-between;
 }
 
-.botao, .botao-copiar {
+.botao,
+.botao-copiar {
   padding: 24px;
   text-align: center;
   border-radius: 32px;
@@ -139,7 +140,8 @@ textarea {
   width: 40%;
 }
 
-.botao:hover, .botao-copiar:hover {
+.botao:hover,
+.botao-copiar:hover {
   background-color: var(--DarkBlue200);
   color: var(--White);
 }
@@ -182,7 +184,7 @@ h2 {
   h1 {
     margin-bottom: 10px;
   }
-  
+
   .alura-icon {
     width: 30px;
     height: 24px;
@@ -202,7 +204,6 @@ h2 {
     width: 100%;
     margin: 0;
     margin-top: 20px;
-    height: 60%;
   }
 
   textarea {
